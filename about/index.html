@@ -46,11 +46,6 @@
     <link rel="icon" media="(prefers-color-scheme: dark)" href="../images/favicon-dark-192.png" sizes="192x192">
   
   
-    <link
-      rel="stylesheet"
-      href="https://cdn.staticfile.net/waline/3.0.0-alpha.9/waline.css"
-    />
-  
   
 <link rel="stylesheet" href="../css/style.css">
 
@@ -173,6 +168,8 @@
 
 
 <article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
    
   <div class="article-inner">
     <div class="article-main">
@@ -213,6 +210,10 @@
         
       </div>
 
+       
+        <footer class="article-footer">
+           
+        </footer>
          
     </div>
     
@@ -224,19 +225,6 @@
   
 </article>
 
-
-  
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-  <div id="comment-card" class="comment-card">
-    <div class="main-title-bar">
-      <div class="main-title-dot"></div>
-      <div class="main-title">留言 </div>
-    </div>
-    <div id="vcomments"></div>
-  </div>
-  <script>
-      new Valine({"enable":true,"appId":null,"appKey":null,"placeholder":"Just go go","pageSize":10,"highlight":true,"serverURLs":null,"el":"#vcomments"});
-  </script>
 
 
 
@@ -259,23 +247,6 @@
   </script>
   
 
-
-  <div id="wl-comment-card" class="wl-comment-card">
-    <div class="main-title-bar">
-      <div class="main-title-dot"></div>
-      <div class="main-title">留言 </div>
-    </div>
-    <div id="waline"></div>
-  </div>
-  <script type="module">
-    import { init } from 'https://cdn.staticfile.net/waline/3.0.0-alpha.9/waline.js';
-
-    init({
-      el: '#waline',
-      serverURL: '',
-      dark: 'html[theme="dark"]',
-    });
-  </script>
 
     </div>
     <div id="footer-wrapper">

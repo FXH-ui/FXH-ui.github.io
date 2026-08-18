@@ -252,6 +252,19 @@
     });
   </script>
 
+
+<!-- Waline 评论 -->
+<div id="waline" style="margin-top: 2rem;"></div>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  init({
+    el: '#waline',
+    serverURL: 'https://blog-omega-wine-18.vercel.app',
+    lang: 'zh-CN',
+    dark: 'auto',
+  });
+</script>
     </div>
     <div id="footer-wrapper">
       <footer id="footer">

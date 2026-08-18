@@ -3024,10 +3024,3 @@ input[type="range"] {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.links-desc {
-  white-space: pre-wrap;
-  word-break: keep-all;
-  font-family: "SF Mono", "Fira Code", "Consolas", "Monaco", "Courier New", monospace;
-  line-height: 1.2;
-  letter-spacing: 0;
-}

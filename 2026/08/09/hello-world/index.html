@@ -46,6 +46,11 @@
     <link rel="icon" media="(prefers-color-scheme: dark)" href="../../../../images/favicon-dark-192.png" sizes="192x192">
   
   
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.net/waline/3.0.0-alpha.9/waline.css"
+    />
+  
   
 <link rel="stylesheet" href="../../../../css/style.css">
 
@@ -241,25 +246,24 @@
 
 
 
-  <script src="https://cdn.staticfile.org/twikoo/1.6.26/twikoo.all.min.js"></script>
-  <div id="comment-card" class="comment-card">
+
+
+  <div id="wl-comment-card" class="wl-comment-card">
     <div class="main-title-bar">
       <div class="main-title-dot"></div>
       <div class="main-title">留言 </div>
     </div>
-    <div id="tcomment"></div>
+    <div id="waline"></div>
   </div>
-  <script>
-      twikoo.init({
-          envId: '',
-          el: '#tcomment',
-          region: '',
-          path: 'location.pathname',
-          lang: '',
-      })
-  </script>
-  
+  <script type="module">
+    import { init } from 'https://cdn.staticfile.net/waline/3.0.0-alpha.9/waline.js';
 
+    init({
+      el: '#waline',
+      serverURL: '',
+      dark: 'html[theme="dark"]',
+    });
+  </script>
 
     </div>
     <div id="footer-wrapper">

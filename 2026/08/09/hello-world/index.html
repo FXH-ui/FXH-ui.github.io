@@ -265,6 +265,24 @@
     });
   </script>
 
+
+<!-- Waline 评论 -->
+<div id="waline" style="margin-top: 2rem;"></div>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  init({
+    el: '#waline',
+    serverURL: 'https://你的-vercel-地址.vercel.app',  // 改成你的 Vercel 地址
+    lang: 'zh-CN',
+    dark: 'auto',
+    placeholder: '欢迎留下你的评论~',
+    meta: ['nick', 'mail', 'link'],
+    requiredMeta: ['nick'],
+    pageSize: 10,
+  });
+</script>
+
     </div>
     <div id="footer-wrapper">
       <footer id="footer">

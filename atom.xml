@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>封小花</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://fengxiaohua.cn/</id>
+  <link href="https://fengxiaohua.cn/" rel="alternate"/>
+  <link href="https://fengxiaohua.cn/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 封小花</rights>
+  <subtitle>禁止投喂</subtitle>
+  <title>封小花喵喵喵</title>
+  <updated>2026-08-19T01:47:01.766Z</updated>
+  <entry>
+    <author>
+      <name>封小花</name>
+    </author>
+    <category term="日记" scheme="https://fengxiaohua.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="碎碎念" scheme="https://fengxiaohua.cn/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://fengxiaohua.cn/2026/08/19/%E4%B8%83%E5%A4%95/</id>
+    <link href="https://fengxiaohua.cn/2026/08/19/%E4%B8%83%E5%A4%95/"/>
+    <published>2026-08-18T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<per>
+    今天是8月19日七夕节，女朋友是没有的，节日是必须要蹭的。祝各位情侣好聚好散吧（在我找到女朋友之前）
+<per>]]>
+    </summary>
+    <title>七夕节不快乐</title>
+    <updated>2026-08-19T01:47:01.766Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>封小花</name>
+    </author>
+    <category term="日记" scheme="https://fengxiaohua.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="碎碎念" scheme="https://fengxiaohua.cn/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://fengxiaohua.cn/2026/08/18/hello-world/</id>
+    <link href="https://fengxiaohua.cn/2026/08/18/hello-world/"/>
+    <published>2026-08-17T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<per>
+     2026年8月18日，我的博客终于开始运作了。首先要感谢LC大佬的指导，然后要感谢kimi的辛苦工作（真的是问一句走一步）。
+目前没有什么目标，接下来可能就是以写日记的形式更新，如果大家有想看的内容可以在下面留言（太难的不一定学得会，不好的评论会删）。
+祝大]]>
+    </summary>
+    <title>封小花的博客正式开张了</title>
+    <updated>2026-08-18T10:35:06.905Z</updated>
+  </entry>
+</feed>
